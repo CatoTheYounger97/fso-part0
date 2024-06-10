@@ -11,7 +11,7 @@ sequenceDiagram
     server-->>browser: URL redirect
     deactivate server
 
-    Note right of browser: The browser processes the URL redirect to reload the notes page
+    Note right of browser: The browser processes the URL redirect and reloads the notes page
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
